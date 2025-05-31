@@ -1,6 +1,6 @@
 {
   "name": "@mcp-sandbox/core",
-  "version": "0.0.0-alpha.1",
+  "version": "0.0.0-alpha.2",
   "description": "Core library for converting JavaScript modules into MCP (Model Context Protocol) servers with automatic reflection and sandboxing",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

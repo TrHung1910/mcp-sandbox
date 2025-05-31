@@ -1,6 +1,6 @@
 {
   "name": "@mcp-sandbox/monorepo",
-  "version": "0.0.0-alpha.1",
+  "version": "0.0.0-alpha.2",
   "description": "Turn any JavaScript module into a sandboxed MCP (Model Context Protocol) server with automatic reflection and type inference",
   "packageManager": "pnpm@10.6.0",
   "scripts": {

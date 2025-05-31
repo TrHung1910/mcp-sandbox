@@ -1,7 +1,6 @@
 # MCP Sandbox
 
 [![npm version](https://badge.fury.io/js/@mcp-sandbox%2Fcli.svg)](https://badge.fury.io/js/@mcp-sandbox%2Fcli)
-[![npm downloads](https://img.shields.io/npm/dm/@mcp-sandbox/cli.svg)](https://www.npmjs.com/package/@mcp-sandbox/cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/danstarns/mcp-sandbox/blob/main/LICENSE)
 
 <p align=center>

@@ -1,6 +1,6 @@
 {
   "name": "@mcp-sandbox/utils",
-  "version": "0.0.0-alpha.1",
+  "version": "0.0.0-alpha.2",
   "description": "Shared TypeScript utilities for the MCP Sandbox project.",
   "keywords": [
     "mcp-sandbox",
