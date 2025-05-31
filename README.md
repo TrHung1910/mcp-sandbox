@@ -1,7 +1,11 @@
 # MCP Sandbox
 
+[![npm version](https://badge.fury.io/js/@mcp-sandbox%2Fcli.svg)](https://badge.fury.io/js/@mcp-sandbox%2Fcli)
+[![npm downloads](https://img.shields.io/npm/dm/@mcp-sandbox/cli.svg)](https://www.npmjs.com/package/@mcp-sandbox/cli)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/danstarns/mcp-sandbox/blob/main/LICENSE)
+
 <p align=center>
-  <img width="80%" src="docs/banner.png#gh-dark-mode-only" alt="chatkit"/>
+  <img width="80%" src="https://raw.githubusercontent.com/danstarns/mcp-sandbox/main/docs/banner.png#gh-dark-mode-only" alt="MCP Sandbox"/>
 </p>
 
 **Turn any JavaScript module into a sandboxed MCP (Model Context Protocol) server with automatic reflection and type inference.**
@@ -137,7 +141,7 @@ const result = await sandbox.executeTool('myFunction', {
 
 The repository includes several example modules demonstrating different use cases:
 
-### Mathematical Operations (`examples/math-utils.js`)
+### Mathematical Operations ([`examples/math-utils.js`](https://github.com/danstarns/mcp-sandbox/blob/main/examples/math-utils.js))
 
 - Circle area calculation
 - Fibonacci sequence generation
@@ -146,7 +150,7 @@ The repository includes several example modules demonstrating different use case
 - Degree/radian conversion
 - Factorial calculation
 
-### String Manipulation (`examples/string-utils.js`)
+### String Manipulation ([`examples/string-utils.js`](https://github.com/danstarns/mcp-sandbox/blob/main/examples/string-utils.js))
 
 - Title case conversion
 - Random string generation
@@ -155,7 +159,7 @@ The repository includes several example modules demonstrating different use case
 - String reversal
 - Capitalization
 
-### Array Operations (`examples/array-utils.js`)
+### Array Operations ([`examples/array-utils.js`](https://github.com/danstarns/mcp-sandbox/blob/main/examples/array-utils.js))
 
 - Array shuffling (Fisher-Yates)
 - Unique value extraction
@@ -163,7 +167,7 @@ The repository includes several example modules demonstrating different use case
 - Set operations (intersection, difference)
 - Array flattening
 
-### Filesystem Operations (`examples/filesystem-utils.js`)
+### Filesystem Operations ([`examples/filesystem-utils.js`](https://github.com/danstarns/mcp-sandbox/blob/main/examples/filesystem-utils.js))
 
 - File reading/writing (async)
 - Directory listing and creation
@@ -199,13 +203,13 @@ pnpm lint && pnpm format
 ### CLI Options
 
 ```bash
-mcp-sandbox start  [options]
+mcp-sandbox start <module> [options]
 
 Options:
-  -p, --port      Server port (default: 3000)
-  -h, --host      Server host (default: localhost)
-  -t, --timeout     Execution timeout (default: 5000ms)
-  -o, --output    Output MCP configuration to file
+  -p, --port <port>      Server port (default: 3000)
+  -h, --host <host>      Server host (default: localhost)
+  -t, --timeout <ms>     Execution timeout (default: 5000ms)
+  -o, --output <file>    Output MCP configuration to file
 ```
 
 ### Programmatic Options
@@ -235,6 +239,25 @@ interface SandboxOptions {
 4. Enter URL: `http://localhost:3000/mcp/jsonrpc`
 5. Connect and test your tools!
 
+## 📦 Packages
+
+This is a monorepo containing multiple packages:
+
+- [`@mcp-sandbox/cli`](https://www.npmjs.com/package/@mcp-sandbox/cli) - Command-line interface
+- [`@mcp-sandbox/core`](https://www.npmjs.com/package/@mcp-sandbox/core) - Core library
+- [`@mcp-sandbox/utils`](https://www.npmjs.com/package/@mcp-sandbox/utils) - Shared utilities
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](https://github.com/danstarns/mcp-sandbox/blob/main/CONTRIBUTING.md) and check out the [open issues](https://github.com/danstarns/mcp-sandbox/issues).
+
 ## 📄 License
 
 MIT License - see [LICENSE](https://github.com/danstarns/mcp-sandbox/blob/main/LICENSE) for details.
+
+## 🔗 Links
+
+- **GitHub Repository**: [https://github.com/danstarns/mcp-sandbox](https://github.com/danstarns/mcp-sandbox)
+- **Issues**: [https://github.com/danstarns/mcp-sandbox/issues](https://github.com/danstarns/mcp-sandbox/issues)
+- **NPM CLI Package**: [https://www.npmjs.com/package/@mcp-sandbox/cli](https://www.npmjs.com/package/@mcp-sandbox/cli)
+- **NPM Core Package**: [https://www.npmjs.com/package/@mcp-sandbox/core](https://www.npmjs.com/package/@mcp-sandbox/core)
