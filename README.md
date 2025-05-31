@@ -39,13 +39,21 @@ npm install @mcp-sandbox/core @mcp-sandbox/cli
 
 ```bash
 # Start MCP server for a JavaScript module
-mcp-sandbox start ./my-utils.js
+$ mcp-sandbox start ./math-utils.js
 
-# Analyze a module without starting server
-mcp-sandbox inspect ./helpers.js
+🏗️  Initializing MCP Sandbox...
+🔍 Reflecting module
+📊 Discovered 2 tools:
+  - circleArea: Calculate area of a circle
+  - fibonacci: Generate Fibonacci sequence
+🚀 MCP Sandbox server running at http://localhost:3000
+📋 MCP Tools: http://localhost:3000/mcp/tools
+⚡ MCP Execute: http://localhost:3000/mcp/execute
+🔄 MCP SSE: http://localhost:3000/sse
+📡 MCP JSON-RPC: http://localhost:3000/mcp/jsonrpc
+⚙️  MCP Config: http://localhost:3000/mcp-config
+💡 For MCP Inspector, use: http://localhost:3000/sse
 
-# Generate MCP configuration
-mcp-sandbox generate lodash --output config.json
 ```
 
 ### Example Module
