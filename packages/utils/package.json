@@ -1,0 +1,28 @@
+{
+  "name": "@mcp-sandbox/utils",
+  "version": "0.0.0-alpha.0",
+  "description": "Shared TypeScript utilities for the MCP Sandbox project.",
+  "keywords": [
+    "mcp-sandbox",
+    "utils",
+    "typescript",
+    "shared"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch"
+  },
+  "files": [
+    "dist/**/*",
+    "src/**/*"
+  ],
+  "author": "Dan Starns",
+  "license": "MIT",
+  "homepage": "https://github.com/danstarns/mcp-sandbox/tree/main/packages/utils",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsup": "^8.0.0"
+  }
+}
