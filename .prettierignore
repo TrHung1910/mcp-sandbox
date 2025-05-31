@@ -1,0 +1,13 @@
+dist/
+build/
+stats.json
+dgraph/
+web-recording/
+.next/
+mock*.json
+*/**/venv_dgraph/*
+*.vlog
+pnpm-lock.yaml
+private.key
+temp.graphql
+temp.json

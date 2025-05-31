@@ -1,0 +1,58 @@
+{
+  "name": "@mcp-sandbox/core",
+  "version": "0.0.0-alpha.0",
+  "description": "Core library for converting JavaScript modules into MCP (Model Context Protocol) servers with automatic reflection and sandboxing",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "sandbox",
+    "javascript",
+    "typescript",
+    "ai",
+    "llm",
+    "tools",
+    "reflection",
+    "vm",
+    "json-rpc",
+    "server-sent-events",
+    "automation",
+    "api"
+  ],
+  "author": "Dan Starns",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danstarns/mcp-sandbox.git",
+    "directory": "packages/core"
+  },
+  "homepage": "https://github.com/danstarns/mcp-sandbox#readme",
+  "bugs": {
+    "url": "https://github.com/danstarns/mcp-sandbox/issues"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/cors": "^2.8.18",
+    "@types/node": "^22.15.29",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

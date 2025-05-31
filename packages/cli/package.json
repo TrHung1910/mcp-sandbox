@@ -1,0 +1,57 @@
+{
+  "name": "@mcp-sandbox/cli",
+  "version": "0.0.0-alpha.0",
+  "description": "Command-line interface for MCP Sandbox - turn any JavaScript module into an MCP server",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-sandbox": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "cli",
+    "command-line",
+    "sandbox",
+    "javascript",
+    "ai",
+    "llm",
+    "tools",
+    "automation",
+    "reflection",
+    "json-rpc"
+  ],
+  "author": "Dan Starns",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danstarns/mcp-sandbox.git",
+    "directory": "packages/cli"
+  },
+  "homepage": "https://github.com/danstarns/mcp-sandbox#readme",
+  "bugs": {
+    "url": "https://github.com/danstarns/mcp-sandbox/issues"
+  },
+  "dependencies": {
+    "@mcp-sandbox/core": "workspace:^",
+    "commander": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.4.1",
+    "tsx": "^4.0.0",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
