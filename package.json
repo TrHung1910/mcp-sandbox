@@ -1,6 +1,6 @@
 {
   "name": "@mcp-sandbox/monorepo",
-  "version": "0.0.0-alpha.0",
+  "version": "0.0.0-alpha.1",
   "description": "Turn any JavaScript module into a sandboxed MCP (Model Context Protocol) server with automatic reflection and type inference",
   "packageManager": "pnpm@10.6.0",
   "scripts": {
@@ -18,7 +18,7 @@
     "example:inspect": "pnpm build && node packages/cli/dist/index.js inspect examples/math-utils.js",
     "example:generate": "pnpm build && node packages/cli/dist/index.js generate examples/math-utils.js --output math-config.json",
     "cli": "pnpm build && node packages/cli/dist/index.js",
-    "release": "pnpm build && changeset publish"
+    "release": "node ./packages/utils/dist/release.js"
   },
   "private": true,
   "keywords": [

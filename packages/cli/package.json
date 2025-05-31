@@ -1,6 +1,6 @@
 {
   "name": "@mcp-sandbox/cli",
-  "version": "0.0.0-alpha.0",
+  "version": "0.0.0-alpha.1",
   "description": "Command-line interface for MCP Sandbox - turn any JavaScript module into an MCP server",
   "main": "dist/index.js",
   "bin": {
