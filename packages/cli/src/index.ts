@@ -118,7 +118,6 @@ async function inspectModule(modulePath: string, options: CLIOptions) {
   }
 }
 
-// Set up CLI commands
 program.name('mcp-sandbox').description('Turn any JS module into a sandboxed MCP server').version('1.0.0');
 
 program
@@ -161,5 +160,4 @@ program
     }
   });
 
-// Parse CLI arguments
 program.parse();

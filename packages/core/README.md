@@ -55,4 +55,4 @@ Express.js server that implements the MCP protocol with JSON-RPC 2.0 and SSE sup
 
 ## API Reference
 
-See the [main documentation](../../README.md) for complete API reference.
+See the [main documentation](https://github.com/danstarns/mcp-sandbox/blob/main/README.md) for complete API reference.

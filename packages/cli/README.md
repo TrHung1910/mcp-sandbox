@@ -62,3 +62,7 @@ mcp-sandbox inspect lodash --output analysis.json
 # Generate config for module
 mcp-sandbox generate ./my-tools.js --output tools-config.json
 ```
+
+## API Reference
+
+See the [main documentation](https://github.com/danstarns/mcp-sandbox/blob/main/README.md) for complete API reference.

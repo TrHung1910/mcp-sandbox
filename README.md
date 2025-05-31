@@ -1,5 +1,9 @@
 # MCP Sandbox
 
+<p align=center>
+  <img width="80%" src="docs/banner.png#gh-dark-mode-only" alt="chatkit"/>
+</p>
+
 **Turn any JavaScript module into a sandboxed MCP (Model Context Protocol) server with automatic reflection and type inference.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -48,7 +52,6 @@ mcp-sandbox generate lodash --output config.json
 ### Example Module
 
 ```javascript
-// math-utils.js
 /**
  * Calculate the area of a circle
  * @param radius The radius of the circle
@@ -238,8 +241,4 @@ interface SandboxOptions {
 
 ## 📄 License
 
-MIT License - see [LICENSE](LICENSE) for details.
-
----
-
-**MCP Sandbox** - Making JavaScript modules AI-accessible, one reflection at a time! 🤖✨
+MIT License - see [LICENSE](https://github.com/danstarns/mcp-sandbox/blob/main/LICENSE) for details.

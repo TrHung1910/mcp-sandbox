@@ -1,4 +1,3 @@
-// packages/core/src/types.ts - Updated with MCP-specific types
 export interface MCPToolParameter {
   name: string;
   hasDefault: boolean;
@@ -54,7 +53,6 @@ export interface ModuleExports {
   [key: string]: any;
 }
 
-// MCP-specific types
 export interface MCPMessage {
   jsonrpc: '2.0';
   id?: string | number;
