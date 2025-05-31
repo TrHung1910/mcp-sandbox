@@ -6,10 +6,6 @@
 
 **Turn any JavaScript module into a sandboxed MCP (Model Context Protocol) server with automatic reflection and type inference.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue)](https://www.typescriptlang.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green)](https://nodejs.org/)
-
 ## 🎯 What is MCP Sandbox?
 
 MCP Sandbox automatically converts JavaScript modules into MCP (Model Context Protocol) compatible servers, making any JavaScript function accessible to AI systems. It uses VM sandboxing for security, automatic type inference, and generates proper MCP configurations.
